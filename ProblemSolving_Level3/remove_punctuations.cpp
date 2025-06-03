@@ -19,8 +19,6 @@ string removePunctuations(string message)
 int main()
 {
 	string message = "Welcome to Algeria,..; Algeria expresses a warm welcome.";
-	string wordToReplace = "Algeria";
-	string replacement = "USA";
 
 	cout << "Original message:\n" << message << endl;
 	cout << "\nPaunctuations removed:\n" << removePunctuations(message) << endl;
